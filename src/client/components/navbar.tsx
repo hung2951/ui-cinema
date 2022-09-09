@@ -1,13 +1,14 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='bg-black h-12 w-full'>
         <div className='mx-auto w-[1200px] '>
             <ul className='relative flex justify-around text-white uppercase leading-[48px]'>
-                <li className='hover:text-orange-600 duration-500'>Trang chủ</li>
+                <Link to={`/`}><li className='hover:text-orange-600 duration-500'>Trang chủ</li></Link>
                 <div>|</div>
-                <li className='group'><span className='group-hover:text-orange-600 duration-500'>Phim <i className="fa-solid fa-caret-down pl-2"></i></span> 
+                <li className='group'>
+                  <Link to={`#`}><span className='group-hover:text-orange-600 duration-500'>Phim <i className="fa-solid fa-caret-down pl-2"></i></span></Link> 
                   <div className='mt-0 w-full z-10 min-h-[300px] absolute left-0 bg-black opacity-0 invisible group-hover:opacity-100 group-hover:visible group-hover:mt-0 transition-all decoration-slate-500'>
                     <div className='ml-10'>
                       <div>
@@ -81,13 +82,13 @@ const Navbar = () => {
                   </div>
                 </li>
                 <div>|</div>
-                <li className='hover:text-orange-600 duration-500'>Mua vé</li>
+                <Link to={`#`}><li className='hover:text-orange-600 duration-500'>Mua vé</li></Link>
                 <div>|</div>
-                <li className='hover:text-orange-600 duration-500'>Giá vé</li>
+                <Link to={`#`}><li className='hover:text-orange-600 duration-500'>Giá vé</li></Link>
                 <div>|</div>
-                <li className='hover:text-orange-600 duration-500'>Hỗ trợ</li>
+                <Link to={`#`}><li className='hover:text-orange-600 duration-500'>Hỗ trợ</li></Link>
                 <div>|</div>
-                <li className='hover:text-orange-600 duration-500'>Thành viên</li>
+                <Link to={`#`}><li className='hover:text-orange-600 duration-500'>Thành viên</li></Link>
             </ul>
         </div>
     </div>

@@ -1,13 +1,12 @@
-import React from 'react'
 import Navbar from './navbar'
-
+import {Link} from 'react-router-dom'
 const Header = () => {
   return (
     <div className=''>
         <div className='flex justify-between mx-auto w-[1200px]'>
-            <div className='logo'>
+            <Link to={`/`}>
                 <img src="https://galaxynetbd.com/wp-content/uploads/2021/07/galaxynet.png" width={250} alt="" />    
-            </div>   
+            </Link>   
             <div className='mt-7'>
                 <form className='relative'>
                     <input className=' w-[350px] pl-2 h-8 border border-black rounded-sm' type="text" placeholder='Tìm kiếm...' />
