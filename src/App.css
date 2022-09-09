@@ -26,7 +26,7 @@
   width: 600px;
   height: 400px;
   background-color: white;
-  margin-left: 450px;
+  margin: 0 450px;
   transition: ease-in-out 0.4s;
 }
 .video iframe{
