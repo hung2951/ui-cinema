@@ -6,6 +6,12 @@ type Props = {}
 const HomePage = (props: Props) => {
   return (
     <div>
+        <head>
+            <meta charSet='UTF-8' />
+            <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>SunCinema</title>
+        </head>
         <SlideShow/>
         <div className='film mx-auto w-[1200px] mt-5'>
             {/* Danh sách phim */}
