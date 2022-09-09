@@ -1,0 +1,45 @@
+@import "react-slideshow-image/dist/styles.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.each-slide>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+.navbar_film_btn{
+  opacity: 0%;
+}
+.navbar_film:hover .navbar_film_btn{
+  opacity: 100%;
+  transition: ease 0.6s;
+}
+.navbar_film:hover .navbar_film_img{
+  opacity: 50%;
+}
+
+.tab1_film_btn{
+  opacity: 0%;
+}
+.tab1_film:hover .tab1_film_btn{
+  opacity: 100%;
+  transition: ease 0.6s;
+}
+.tab1_film:hover .tab1_film_img{
+  opacity: 40%;
+  overflow: hidden;
+}
+.tab1_film:hover .tab1_film_img img{
+  scale: 1.2;
+  transition: ease 0.6s;
+}
