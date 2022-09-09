@@ -26,19 +26,21 @@
   width: 600px;
   height: 400px;
   background-color: white;
-  margin: 0 450px;
   transition: ease-in-out 0.4s;
+}
+.video_active,.video {
+  width: 600px;
+  margin: 0 auto;
 }
 .video iframe{
   position: absolute;
   top: 50px;
   opacity: 100%;
-  margin-left: 450px;
   height: 0;
   width: 600px;
   transition: ease-in-out 0.2s;
 }
-.exit_video {
+/* .exit_video{
   display: block;
   position: absolute;
   top: 55px;
@@ -46,7 +48,7 @@
 }
 .exit_video_hide{
   display: none;
-}
+} */
 
 /* end slide show */
 .navbar_film_btn{

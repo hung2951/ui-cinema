@@ -27,10 +27,11 @@ const SlideShow = () => {
           </div>
       </Slide>
       <div className={isActive ? "video_active" : "video"}>
-        <div className="">
+        
           <iframe width="600" height="400" src="https://www.youtube.com/embed/UBgPypHGAqE" title="YouTube video player" frameBorder={0} allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-        </div>
-        <button onClick={()=>ToggleClass()} className={isActive ? "exit_video" : "exit_video_hide"}><i className="fa-sharp fa-solid fa-xmark text-white fa-2x"></i></button>
+          <button onClick={()=>ToggleClass()} className={isActive ? "exit_video absolute top-12 right-[390px]" : "hidden"}><i className="fa-sharp fa-solid fa-xmark text-white fa-2x"></i></button>
+        
+        
       </div>
     </div>
     
