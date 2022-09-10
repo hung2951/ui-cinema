@@ -37,7 +37,7 @@ const MovieDetail = (props: Props) => {
                                 <p><span className='text-[#868686]'>Thời lượng</span>: 166 phút</p>
                                 <p><span className='text-[#868686]'>Ngày Khởi chiếu</span>: 1/9/2022</p>
                             </div>
-                            <button className='mt-5 bg-orange-600 text-white w-[200px] h-10 rounded-md '>Mua vé</button>
+                            <Link to={`/`}><button className='mt-5 bg-orange-600 text-white w-[200px] h-10 rounded-md '>Mua vé</button></Link>
                         </div>
                         
                     </div>

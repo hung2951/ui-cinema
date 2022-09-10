@@ -109,38 +109,38 @@ const HomePage = (props: Props) => {
 
                 <div className='grid grid-cols-3 gap-5 mt-10 '>
                     <div className='group relative overflow-hidden'>
-                        <div className='group-hover:opacity-50 group-hover:scale-110 duration-300 '>
+                        <div className='group-hover:brightness-50 group-hover:scale-110 duration-300 '>
                             <img src="https://www.galaxycine.vn/media/2022/8/26/duatopsamsung-digital-1135x660_1661486090736.jpg" alt="" />
                         </div>
                         <div>
-                        <button className='group-hover:opacity-100 opacity-0 absolute top-[90px] left-[135px] hover:bg-orange-600 hover:border-none hover:text-white uppercase h-10 leading-10 border border-black w-[100px]'>Chi tiết</button>
+                        <button className='group-hover:opacity-100 opacity-0 absolute top-[90px] left-[135px] hover:bg-orange-600 hover:border-none hover:text-white text-white uppercase h-10 leading-10 border border-white w-[100px]'>Chi tiết</button>
                         </div>
                     </div>
 
                     <div className='group relative overflow-hidden'>
-                        <div className='group-hover:opacity-50 group-hover:scale-110 duration-300 '>
+                        <div className='group-hover:brightness-50 group-hover:scale-110 duration-300 '>
                             <img src="https://www.galaxycine.vn/media/2022/8/26/duatopsamsung-digital-1135x660_1661486090736.jpg" alt="" />
                         </div>
                         <div>
-                        <button className='group-hover:opacity-100 opacity-0 absolute top-[90px] left-[135px] hover:bg-orange-600 hover:border-none hover:text-white uppercase h-10 leading-10 border border-black w-[100px]'>Chi tiết</button>
+                        <button className='group-hover:opacity-100 opacity-0 absolute top-[90px] left-[135px] hover:bg-orange-600 hover:border-none hover:text-white text-white uppercase h-10 leading-10 border border-white w-[100px]'>Chi tiết</button>
                         </div>
                     </div>
 
                     <div className='group relative overflow-hidden'>
-                        <div className='group-hover:opacity-50 group-hover:scale-110 duration-300 '>
+                        <div className='group-hover:brightness-50 group-hover:scale-110 duration-300 '>
                             <img src="https://www.galaxycine.vn/media/2022/8/26/duatopsamsung-digital-1135x660_1661486090736.jpg" alt="" />
                         </div>
                         <div>
-                        <button className='group-hover:opacity-100 opacity-0 absolute top-[90px] left-[135px] hover:bg-orange-600 hover:border-none hover:text-white uppercase h-10 leading-10 border border-black w-[100px]'>Chi tiết</button>
+                        <button className='group-hover:opacity-100 opacity-0 absolute top-[90px] left-[135px] hover:bg-orange-600 hover:border-none hover:text-white text-white uppercase h-10 leading-10 border border-white w-[100px]'>Chi tiết</button>
                         </div>
                     </div>
 
                     <div className='group relative overflow-hidden'>
-                        <div className='group-hover:opacity-50 group-hover:scale-110 duration-300 '>
+                        <div className='group-hover:brightness-50 group-hover:scale-110 duration-300 '>
                             <img src="https://www.galaxycine.vn/media/2022/8/26/duatopsamsung-digital-1135x660_1661486090736.jpg" alt="" />
                         </div>
                         <div>
-                        <button className='group-hover:opacity-100 opacity-0 absolute top-[90px] left-[135px] hover:bg-orange-600 hover:border-none hover:text-white uppercase h-10 leading-10 border border-black w-[100px]'>Chi tiết</button>
+                        <button className='group-hover:opacity-100 opacity-0 absolute top-[90px] left-[135px] hover:bg-orange-600 hover:border-none hover:text-white text-white uppercase h-10 leading-10 border border-white w-[100px]'>Chi tiết</button>
                         </div>
                     </div>
                 </div>
