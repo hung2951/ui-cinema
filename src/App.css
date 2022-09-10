@@ -21,12 +21,12 @@
 }
 .video_active iframe{
   position: absolute;
-  top: 50px;
+  top: 150px;
   opacity: 100%;
-  width: 600px;
+  width: 700px;
   height: 400px;
-  background-color: white;
-  transition: ease-in-out 0.4s;
+  /* background-color: white; */
+  transition: ease-in-out 0.3s;
 }
 .video_active,.video {
   width: 600px;
@@ -34,22 +34,12 @@
 }
 .video iframe{
   position: absolute;
-  top: 50px;
-  opacity: 100%;
+  top: 150px;
+  opacity: 60%;
   height: 0;
-  width: 600px;
-  transition: ease-in-out 0.2s;
+  width: 700px;
+  transition: ease-in-out 0.1s;
 }
-/* .exit_video{
-  display: block;
-  position: absolute;
-  top: 55px;
-  left:1060px;
-}
-.exit_video_hide{
-  display: none;
-} */
-
 /* end slide show */
 .navbar_film_btn{
   opacity: 0%;
@@ -58,9 +48,10 @@
   opacity: 100%;
   transition: ease 0.6s;
 }
-.navbar_film:hover .navbar_film_img{
-  opacity: 50%;
-}
+/* .navbar_film:hover .navbar_film_img{
+  filter: brightness(50%);
+  background-color: black;
+} */
 
 .tab1_film_btn{
   opacity: 0%;
@@ -70,10 +61,10 @@
   transition: ease 0.6s;
 }
 .tab1_film:hover .tab1_film_img{
-  opacity: 40%;
   overflow: hidden;
 }
 .tab1_film:hover .tab1_film_img img{
+  filter: brightness(50%);
   scale: 1.2;
   transition: ease 0.6s;
 }

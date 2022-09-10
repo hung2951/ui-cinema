@@ -26,9 +26,9 @@ const Hometab1 = (props: Props) => {
                     </Link>
                     <p className='uppercase py-3'>KISARAGI STATION</p>
                     <div className='tab1_film_btn absolute top-24 left-[145px]'>
-                        <button className='hover:bg-orange-600 hover:border-none hover:text-white uppercase h-10 leading-10 border border-white w-[100px]'>Mua vé</button>
+                        <button className='hover:bg-orange-600 hover:border-none hover:text-white text-white uppercase h-10 leading-10 border border-white w-[100px]'>Mua vé</button>
                     </div>
-                    <div className='tab1_film_btn absolute text-center top-40 left-[110px] text-black capitalize'>
+                    <div className='tab1_film_btn absolute text-center top-40 left-[110px] text-white capitalize'>
                         <p>Thể loại: hành động</p>
                         <p>Khởi chiếu: 20/20/2020</p>
                     </div>
@@ -46,9 +46,9 @@ const Hometab1 = (props: Props) => {
                     </Link>
                     <p className='uppercase py-3'>KISARAGI STATION</p>
                     <div className='tab1_film_btn absolute top-24 left-[145px]'>
-                        <button className='hover:bg-orange-600 hover:border-none hover:text-white uppercase h-10 leading-10 border border-white w-[100px]'>Mua vé</button>
+                        <button className='hover:bg-orange-600 hover:border-none hover:text-white text-white uppercase h-10 leading-10 border border-white w-[100px]'>Mua vé</button>
                     </div>
-                    <div className='tab1_film_btn absolute text-center top-40 left-[110px] text-black capitalize'>
+                    <div className='tab1_film_btn absolute text-center top-40 left-[110px] text-white capitalize'>
                         <p>Thể loại: hành động</p>
                         <p>Khởi chiếu: 20/20/2020</p>
                     </div>
@@ -66,9 +66,9 @@ const Hometab1 = (props: Props) => {
                     </Link>
                     <p className='uppercase py-3'>KISARAGI STATION</p>
                     <div className='tab1_film_btn absolute top-24 left-[145px]'>
-                        <button className='hover:bg-orange-600 hover:border-none hover:text-white uppercase h-10 leading-10 border border-white w-[100px]'>Mua vé</button>
+                        <button className='hover:bg-orange-600 hover:border-none hover:text-white text-white uppercase h-10 leading-10 border border-white w-[100px]'>Mua vé</button>
                     </div>
-                    <div className='tab1_film_btn absolute text-center top-40 left-[110px] text-black capitalize'>
+                    <div className='tab1_film_btn absolute text-center top-40 left-[110px] text-white capitalize'>
                         <p>Thể loại: hành động</p>
                         <p>Khởi chiếu: 20/20/2020</p>
                     </div>
@@ -86,9 +86,9 @@ const Hometab1 = (props: Props) => {
                     </Link>
                     <p className='uppercase py-3'>KISARAGI STATION</p>
                     <div className='tab1_film_btn absolute top-24 left-[145px]'>
-                        <button className='hover:bg-orange-600 hover:border-none hover:text-white uppercase h-10 leading-10 border border-white w-[100px]'>Mua vé</button>
+                        <button className='hover:bg-orange-600 hover:border-none hover:text-white text-white uppercase h-10 leading-10 border border-white w-[100px]'>Mua vé</button>
                     </div>
-                    <div className='tab1_film_btn absolute text-center top-40 left-[110px] text-black capitalize'>
+                    <div className='tab1_film_btn absolute text-center top-40 left-[110px] text-white capitalize'>
                         <p>Thể loại: hành động</p>
                         <p>Khởi chiếu: 20/20/2020</p>
                     </div>
