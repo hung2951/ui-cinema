@@ -6,9 +6,6 @@ type Props = {}
 const HomePage = (props: Props) => {
   return (
     <div>
-        <head>
-            <title>SunCinema</title>
-        </head>
         <SlideShow/>
         <div className='film mx-auto w-[1200px] mt-5'>
             {/* Danh sách phim */}
