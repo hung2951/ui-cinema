@@ -7,6 +7,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 import Hometab1 from './client/components/homeTab1'
 import Hometab2 from './client/components/homeTab2'
 import MovieDetail from './client/pages/detail'
+import TicketPrice from './client/pages/ticketPrice'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='tab2' element={<Hometab2/>}/>
           </Route>
           <Route path='detail' element={<MovieDetail/>}/>
+          <Route path='gia-ve' element={<TicketPrice/>}/>
         </Route>
       </Routes>
     </div>

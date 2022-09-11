@@ -84,7 +84,7 @@ const Navbar = () => {
                 <div>|</div>
                 <Link to={`#`}><li className='hover:text-orange-600 duration-500'>Mua vé</li></Link>
                 <div>|</div>
-                <Link to={`#`}><li className='hover:text-orange-600 duration-500'>Giá vé</li></Link>
+                <Link to={`/gia-ve`}><li className='hover:text-orange-600 duration-500'>Giá vé</li></Link>
                 <div>|</div>
                 <Link to={`#`}><li className='hover:text-orange-600 duration-500'>Hỗ trợ</li></Link>
                 <div>|</div>
