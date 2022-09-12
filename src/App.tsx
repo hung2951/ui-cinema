@@ -9,6 +9,7 @@ import Hometab2 from "./client/components/homeTab2";
 import MovieDetail from "./client/pages/detail";
 import Signin from "./client/pages/signin";
 import Signup from "./client/pages/signup";
+import Choose from "./client/pages/choose";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -20,6 +21,7 @@ function App() {
             <Route index element={<Hometab1 />} />
             <Route path="tab1" element={<Hometab1 />} />
             <Route path="tab2" element={<Hometab2 />} />
+            <Route path="choose" element={<Choose></Choose>}></Route>
           </Route>
           <Route path="detail" element={<MovieDetail />} />
         </Route>
