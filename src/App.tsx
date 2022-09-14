@@ -8,6 +8,7 @@ import Hometab1 from './client/components/homeTab1'
 import Hometab2 from './client/components/homeTab2'
 import MovieDetail from './client/pages/detail'
 import TicketPrice from './client/pages/ticketPrice'
+import BookChair from './client/pages/bookChair'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -22,6 +23,7 @@ function App() {
           </Route>
           <Route path='detail' element={<MovieDetail/>}/>
           <Route path='gia-ve' element={<TicketPrice/>}/>
+          <Route path='book-chair' element={<BookChair/>}/>
         </Route>
       </Routes>
     </div>
