@@ -10,6 +10,7 @@ import MovieDetail from "./client/pages/detail";
 import Signin from "./client/pages/signin";
 import Signup from "./client/pages/signup";
 import Choose from "./client/pages/choose";
+import MovePage from "./client/pages/movepage";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -27,6 +28,7 @@ function App() {
         </Route>
         <Route path="signin" element={<Signin></Signin>} />
         <Route path="signup" element={<Signup></Signup>} />
+        <Route path="movepage" element={<MovePage></MovePage>} />
       </Routes>
     </div>
   );
